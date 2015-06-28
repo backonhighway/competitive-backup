@@ -1,0 +1,13 @@
+	MyObject[] myObject = new MyObject[len];
+	
+	// ¸‡
+	Arrays.sort(myObject, Comparator.comparing(o -> o.field1));
+	
+	// ~‡
+	Arrays.sort(myObject, Comparator.comparing(
+			o -> o.field1, Comparator.reverseOrder()));
+	
+	public class MyObject {
+		field1;
+		field2;
+	}

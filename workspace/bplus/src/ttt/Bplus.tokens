@@ -1,0 +1,15 @@
+IDXPLUS=4
+PLUS=2
+WS=1
+WHILEEND=8
+MINUS=3
+OUT=6
+WHILEBEGIN=7
+IDXMINUS=5
+'<'=3
+'['=7
+'-'=5
+'+'=4
+'.'=6
+'>'=2
+']'=8

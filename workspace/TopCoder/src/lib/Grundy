@@ -1,0 +1,10 @@
+	int grundyNumber(position pos){
+		  nextPos[] next = { posから遷移できる全ての座標 };
+		  set<integer> s; // 集合を用意します
+		  for(position x : next)
+		    s.add( grundyNumber(x) ); //遷移先のgrundy numberを集合に追加します
+		  //集合sに含まれない非負の整数の中で最小値を、このposのgrundy numberとします
+		  int res = 0;
+		  while( s.contains(res) ) res++;
+		  return res;
+	}

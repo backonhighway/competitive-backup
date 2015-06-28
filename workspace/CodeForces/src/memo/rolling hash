@@ -1,0 +1,2 @@
+    	final long MOD = 1_099_511_627_689L;
+    	final long base = 32749;

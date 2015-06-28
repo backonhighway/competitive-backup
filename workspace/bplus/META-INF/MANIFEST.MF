@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: bplus
+Bundle-SymbolicName: bplus
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: bplus.jar,
+ Okubo/Desktop/antlr-4.2-complete.jar
